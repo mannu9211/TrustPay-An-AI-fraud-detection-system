@@ -1,0 +1,80 @@
+/* pages/Transactions.css */
+.transactions-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.transactions-main {
+  flex: 1;
+  margin-left: 260px;
+}
+
+.transactions-content {
+  padding: 100px 32px 32px 32px;
+}
+
+.transactions-header {
+  margin-bottom: 32px;
+}
+
+.transactions-title {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #fff, var(--primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.transactions-subtitle {
+  color: var(--text-secondary);
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.transactions-table-container {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th {
+  text-align: left;
+  padding: 12px 8px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.transactions-table td {
+  padding: 14px 8px;
+  border-bottom: 1px solid rgba(51, 65, 85, 0.3);
+  font-size: 13px;
+}
+
+.status-approved {
+  color: #10b981;
+}
+
+.status-flagged {
+  color: #f59e0b;
+}
+
+.status-blocked {
+  color: #ef4444;
+}
+
+@media (max-width: 1024px) {
+  .transactions-content {
+    padding: 90px 20px 20px 20px;
+  }
+}
