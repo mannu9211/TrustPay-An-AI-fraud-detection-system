@@ -145,5 +145,3 @@ git add README.md
 git commit -m "Add README file"
 git push
 ```
-
-That's it! Your repository now has a clean, professional README. 🎉
