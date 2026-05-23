@@ -1,6 +1,4 @@
-Here's your direct README.md file content - just copy and paste this into your `README.md` file:
 
-```markdown
 # 🛡️ TrustPay - AI Fraud Detection System
 
 An intelligent, real-time fraud detection system powered by Machine Learning.
